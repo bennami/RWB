@@ -1,0 +1,41 @@
+body main div {
+  background-color: lightskyblue;
+  padding: 20px;
+  margin: 10px;
+}
+
+@media only screen and (max-width: 300px) {
+  body {
+    background-color: red;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  body {
+    background-color: green;
+  }
+}
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+}
+@media only screen and (max-width: 300px) {
+  #medium, #big {
+    visibility: hidden;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  #small, #big {
+    visibility: hidden;
+  }
+}
+@media only screen and (min-width: 768px) {
+  #small, #medium {
+    visibility: hidden;
+  }
+}
+h1, p {
+  font-size: 10vw;
+}
+
+/*# sourceMappingURL=main.css.map */
